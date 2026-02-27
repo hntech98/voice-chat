@@ -1,0 +1,17 @@
+{
+  "name": "voice-chat-websocket",
+  "version": "1.0.0",
+  "description": "WebSocket signaling server for Voice Chat application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.14.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
